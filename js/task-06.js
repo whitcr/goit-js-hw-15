@@ -6,8 +6,6 @@ function handlerBlur() {
   const length = Number(input.getAttribute("data-length"));
   const inputLength = input.value.length;
 
-  console.log(length, inputLength);
-
   if (inputLength <= length) {
     input.classList.remove("invalid");
     input.classList.add("valid");
