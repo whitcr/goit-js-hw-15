@@ -8,7 +8,7 @@ function handlerBlur() {
 
   console.log(length, inputLength);
 
-  if (inputLength <= length) {
+  if (inputLength == length) {
     input.classList.remove("invalid");
     input.classList.add("valid");
   } else {
